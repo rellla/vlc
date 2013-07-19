@@ -1,0 +1,12 @@
+Build vlc for Allwinner A10 devices like Mele A1000
+
+First take a look to the depends.mk and fit settings to your environment.
+
+1) Install needed dependencies (on host and target system):
+
+apt-get build-dep vlc
+
+2) Compile
+
+make
+make install
